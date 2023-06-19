@@ -8,22 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		BB3A50882A3BB17300FB9D3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A50872A3BB17300FB9D3E /* AppDelegate.swift */; };
-		BB3A508A2A3BB17300FB9D3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A50892A3BB17300FB9D3E /* SceneDelegate.swift */; };
-		BB3A508C2A3BB17300FB9D3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A508B2A3BB17300FB9D3E /* ViewController.swift */; };
-		BB3A508F2A3BB17300FB9D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3A508D2A3BB17300FB9D3E /* Main.storyboard */; };
 		BB3A50912A3BB17600FB9D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3A50902A3BB17600FB9D3E /* Assets.xcassets */; };
 		BB3A50942A3BB17600FB9D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3A50922A3BB17600FB9D3E /* LaunchScreen.storyboard */; };
+		BB3A50AA2A3C88DF00FB9D3E /* CardsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3A50A92A3C88DF00FB9D3E /* CardsList.storyboard */; };
+		BB3A50AC2A3C890800FB9D3E /* CardsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A50AB2A3C890800FB9D3E /* CardsListViewController.swift */; };
+		BB3A50AF2A3C899900FB9D3E /* CardsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A50AD2A3C899900FB9D3E /* CardsListCell.swift */; };
+		BB3A50B02A3C899900FB9D3E /* CardsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB3A50AE2A3C899900FB9D3E /* CardsListCell.xib */; };
+		BB3A50B22A3C8E9C00FB9D3E /* Realm+WriteFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A50B12A3C8E9C00FB9D3E /* Realm+WriteFunctions.swift */; };
+		BB3A50B42A3C8EA400FB9D3E /* RealmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A50B32A3C8EA400FB9D3E /* RealmController.swift */; };
+		BB3A50B72A3C933800FB9D3E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BB3A50B62A3C933800FB9D3E /* RealmSwift */; };
+		BB3A50B92A3C96FB00FB9D3E /* CardListPlainObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A50B82A3C96FB00FB9D3E /* CardListPlainObject.swift */; };
+		BB3A50BB2A3C9C6300FB9D3E /* CardsListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A50BA2A3C9C6300FB9D3E /* CardsListDetailViewController.swift */; };
+		BB3A50BF2A3C9D3E00FB9D3E /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A50BE2A3C9D3E00FB9D3E /* UITableView+Extensions.swift */; };
+		BB3A50C52A3CA07B00FB9D3E /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A50C42A3CA07B00FB9D3E /* AppNavigator.swift */; };
+		BB3A50D52A3FC05400FB9D3E /* CardGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3A50D42A3FC05400FB9D3E /* CardGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB3A50842A3BB17300FB9D3E /* CardsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3A50872A3BB17300FB9D3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB3A50892A3BB17300FB9D3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB3A508B2A3BB17300FB9D3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB3A508E2A3BB17300FB9D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB3A50902A3BB17600FB9D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB3A50932A3BB17600FB9D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BB3A50952A3BB17600FB9D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB3A50A92A3C88DF00FB9D3E /* CardsList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CardsList.storyboard; sourceTree = "<group>"; };
+		BB3A50AB2A3C890800FB9D3E /* CardsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListViewController.swift; sourceTree = "<group>"; };
+		BB3A50AD2A3C899900FB9D3E /* CardsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListCell.swift; sourceTree = "<group>"; };
+		BB3A50AE2A3C899900FB9D3E /* CardsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardsListCell.xib; sourceTree = "<group>"; };
+		BB3A50B12A3C8E9C00FB9D3E /* Realm+WriteFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+WriteFunctions.swift"; sourceTree = "<group>"; };
+		BB3A50B32A3C8EA400FB9D3E /* RealmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmController.swift; sourceTree = "<group>"; };
+		BB3A50B82A3C96FB00FB9D3E /* CardListPlainObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListPlainObject.swift; sourceTree = "<group>"; };
+		BB3A50BA2A3C9C6300FB9D3E /* CardsListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListDetailViewController.swift; sourceTree = "<group>"; };
+		BB3A50BE2A3C9D3E00FB9D3E /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		BB3A50C42A3CA07B00FB9D3E /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
+		BB3A50CE2A3CB17E00FB9D3E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB3A50D42A3FC05400FB9D3E /* CardGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB3A50B72A3C933800FB9D3E /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +74,167 @@
 		BB3A50862A3BB17300FB9D3E /* CardsList */ = {
 			isa = PBXGroup;
 			children = (
-				BB3A50872A3BB17300FB9D3E /* AppDelegate.swift */,
-				BB3A50892A3BB17300FB9D3E /* SceneDelegate.swift */,
-				BB3A508B2A3BB17300FB9D3E /* ViewController.swift */,
-				BB3A508D2A3BB17300FB9D3E /* Main.storyboard */,
-				BB3A50902A3BB17600FB9D3E /* Assets.xcassets */,
+				BB3A509C2A3C1E9B00FB9D3E /* Resources */,
+				BB3A509B2A3C1E9300FB9D3E /* Code */,
 				BB3A50922A3BB17600FB9D3E /* LaunchScreen.storyboard */,
-				BB3A50952A3BB17600FB9D3E /* Info.plist */,
+				BB3A50CE2A3CB17E00FB9D3E /* Info.plist */,
 			);
 			path = CardsList;
+			sourceTree = "<group>";
+		};
+		BB3A509B2A3C1E9300FB9D3E /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A509E2A3C1EA800FB9D3E /* Application */,
+				BB3A509F2A3C1EAE00FB9D3E /* Common */,
+				BB3A509D2A3C1EA200FB9D3E /* Buisness */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		BB3A509C2A3C1E9B00FB9D3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50902A3BB17600FB9D3E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB3A509D2A3C1EA200FB9D3E /* Buisness */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50A02A3C1EBF00FB9D3E /* Features */,
+			);
+			path = Buisness;
+			sourceTree = "<group>";
+		};
+		BB3A509E2A3C1EA800FB9D3E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50C32A3CA06E00FB9D3E /* Navigation */,
+				BB3A50A12A3C1EC800FB9D3E /* App */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BB3A509F2A3C1EAE00FB9D3E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50BC2A3C9D2300FB9D3E /* Extensions */,
+				BB3A50A22A3C1EE200FB9D3E /* Helpers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BB3A50A02A3C1EBF00FB9D3E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50A42A3C1EF800FB9D3E /* CardsList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BB3A50A12A3C1EC800FB9D3E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50872A3BB17300FB9D3E /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BB3A50A22A3C1EE200FB9D3E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50D32A3FC04300FB9D3E /* CardGenerator */,
+				BB3A50A32A3C1EE900FB9D3E /* Realm */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BB3A50A32A3C1EE900FB9D3E /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50B12A3C8E9C00FB9D3E /* Realm+WriteFunctions.swift */,
+				BB3A50B32A3C8EA400FB9D3E /* RealmController.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		BB3A50A42A3C1EF800FB9D3E /* CardsList */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50A82A3C88CF00FB9D3E /* Views */,
+				BB3A50A72A3C88C700FB9D3E /* Storyboard */,
+				BB3A50A62A3C88BF00FB9D3E /* Model */,
+				BB3A50A52A3C88B200FB9D3E /* Controller */,
+			);
+			path = CardsList;
+			sourceTree = "<group>";
+		};
+		BB3A50A52A3C88B200FB9D3E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50AB2A3C890800FB9D3E /* CardsListViewController.swift */,
+				BB3A50BA2A3C9C6300FB9D3E /* CardsListDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BB3A50A62A3C88BF00FB9D3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50B82A3C96FB00FB9D3E /* CardListPlainObject.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BB3A50A72A3C88C700FB9D3E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50A92A3C88DF00FB9D3E /* CardsList.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		BB3A50A82A3C88CF00FB9D3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50AD2A3C899900FB9D3E /* CardsListCell.swift */,
+				BB3A50AE2A3C899900FB9D3E /* CardsListCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB3A50BC2A3C9D2300FB9D3E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50BD2A3C9D2800FB9D3E /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BB3A50BD2A3C9D2800FB9D3E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50BE2A3C9D3E00FB9D3E /* UITableView+Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		BB3A50C32A3CA06E00FB9D3E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50C42A3CA07B00FB9D3E /* AppNavigator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		BB3A50D32A3FC04300FB9D3E /* CardGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				BB3A50D42A3FC05400FB9D3E /* CardGenerator.swift */,
+			);
+			path = CardGenerator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +253,9 @@
 			dependencies = (
 			);
 			name = CardsList;
+			packageProductDependencies = (
+				BB3A50B62A3C933800FB9D3E /* RealmSwift */,
+			);
 			productName = CardsList;
 			productReference = BB3A50842A3BB17300FB9D3E /* CardsList.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +284,9 @@
 				Base,
 			);
 			mainGroup = BB3A507B2A3BB17300FB9D3E;
+			packageReferences = (
+				BB3A50B52A3C933800FB9D3E /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = BB3A50852A3BB17300FB9D3E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +301,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB3A50AA2A3C88DF00FB9D3E /* CardsList.storyboard in Resources */,
 				BB3A50942A3BB17600FB9D3E /* LaunchScreen.storyboard in Resources */,
 				BB3A50912A3BB17600FB9D3E /* Assets.xcassets in Resources */,
-				BB3A508F2A3BB17300FB9D3E /* Main.storyboard in Resources */,
+				BB3A50B02A3C899900FB9D3E /* CardsListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +315,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB3A508C2A3BB17300FB9D3E /* ViewController.swift in Sources */,
+				BB3A50BF2A3C9D3E00FB9D3E /* UITableView+Extensions.swift in Sources */,
+				BB3A50AF2A3C899900FB9D3E /* CardsListCell.swift in Sources */,
+				BB3A50BB2A3C9C6300FB9D3E /* CardsListDetailViewController.swift in Sources */,
+				BB3A50C52A3CA07B00FB9D3E /* AppNavigator.swift in Sources */,
+				BB3A50AC2A3C890800FB9D3E /* CardsListViewController.swift in Sources */,
+				BB3A50B22A3C8E9C00FB9D3E /* Realm+WriteFunctions.swift in Sources */,
 				BB3A50882A3BB17300FB9D3E /* AppDelegate.swift in Sources */,
-				BB3A508A2A3BB17300FB9D3E /* SceneDelegate.swift in Sources */,
+				BB3A50B92A3C96FB00FB9D3E /* CardListPlainObject.swift in Sources */,
+				BB3A50B42A3C8EA400FB9D3E /* RealmController.swift in Sources */,
+				BB3A50D52A3FC05400FB9D3E /* CardGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BB3A508D2A3BB17300FB9D3E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB3A508E2A3BB17300FB9D3E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BB3A50922A3BB17600FB9D3E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +392,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UIMainStoryboardFile = CardsList;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +447,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UIMainStoryboardFile = CardsList;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,9 +469,10 @@
 				INFOPLIST_FILE = CardsList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = CardsList;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,9 +497,10 @@
 				INFOPLIST_FILE = CardsList/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = CardsList;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,6 +536,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB3A50B52A3C933800FB9D3E /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB3A50B62A3C933800FB9D3E /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB3A50B52A3C933800FB9D3E /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BB3A507C2A3BB17300FB9D3E /* Project object */;
 }
